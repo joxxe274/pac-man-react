@@ -1,0 +1,21 @@
+@keyframes mouth {
+  from {
+    stroke-dasharray: 157, 100;
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dasharray: 126, 100;
+    stroke-dashoffset: -15;
+  }
+}
+
+.pacman {
+  width: 30px;
+  height: 30px;
+  circle {
+    stroke: yellow;
+    stroke-width: 50%;
+    fill: none;
+    animation: mouth 0.15s linear infinite alternate;
+  }
+}
