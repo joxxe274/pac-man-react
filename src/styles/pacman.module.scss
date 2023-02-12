@@ -10,8 +10,11 @@
 }
 
 .pacman {
-  width: 30px;
-  height: 30px;
+  width: calc(var(--pixel-size) * 2);
+  height: calc(var(--pixel-size) * 2);
+  transition-timing-function: linear;
+  position: absolute;
+  z-index: 999;;
   circle {
     stroke: yellow;
     stroke-width: 50%;

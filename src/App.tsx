@@ -1,12 +1,12 @@
 import './styles/_main.scss'
 
-import { PacMan } from './components/pac-man/PacMan.component';
+import { TestMap } from './components/map/TestMap.component';
 
 function App() {
 
   return (
     <div className="App">
-      <PacMan />
+      <TestMap />
     </div>
   )
 }
